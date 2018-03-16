@@ -9,15 +9,15 @@ var mongoInsertDocument = function(db, callback) {
     // Inserting Multiple Records
     db.collection('users').insertMany([{
         "userId" : 16258790,
-        "firstName" : "Sai",
-        "lastName": "Kumar",
+        "firstName" : "Hari",
+        "lastName": "Manasa",
         "mobileNumber" : "224-279-1234",
         "city" : "Kansas"
     },
         {
             "userId" : 16258791,
-            "firstName" : "Sravya",
-            "lastName": "Para",
+            "firstName" : "Kranthi",
+            "lastName": "Kumar",
             "mobileNumber" : "224-279-1235",
             "city" : "Chicago"
         },{
